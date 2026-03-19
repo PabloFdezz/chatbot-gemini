@@ -1,4 +1,4 @@
 *.pyc
-bot/
+venv/
 .env
 chatbot_log.txt
