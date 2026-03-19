@@ -14,9 +14,31 @@ Este proyecto es un chatbot basado en LangChain y Google Gemini, con memoria de 
 ```bash
 git clone https://github.com/tuusuario/chatbot-gemini.git
 cd chatbot-gemini
+```
 
-
-### Crear y Activar Entorno Virtual
+2. Crear y activar un entorno virtual (opcional pero recomendado):
+ Crear y Activar Entorno Virtual
+```bash
 python -m venv bot
 source bot/bin/activate       # Linux/macOS
 bot\Scripts\activate          # Windows
+```
+
+
+3. Instalar dependencias:
+```bash
+pip install -r requirements.txt
+```
+
+4. Configurar la API key:
+```bash
+cp .env.example .env
+# Luego edita .env y pon tu GOOGLE_API_KEY
+```
+
+
+5. Uso
+```bash
+python chatbot_gemini.py
+```
+Escribe tus preguntas y el bot responderá. Escribe adios para salir.
