@@ -42,3 +42,6 @@ cp .env.example .env
 python chatbot_gemini.py
 ```
 Escribe tus preguntas y el bot responderá. Escribe adios para salir.
+
+### listar_modelos.py
+Ejecuta este script para ver los modelos de Gemini disponibles
