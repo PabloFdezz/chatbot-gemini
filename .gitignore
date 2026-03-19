@@ -1,0 +1,4 @@
+*.pyc
+bot/
+.env
+chatbot_log.txt
