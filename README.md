@@ -19,9 +19,9 @@ cd chatbot-gemini
 2. Crear y activar un entorno virtual (opcional pero recomendado):
  Crear y Activar Entorno Virtual
 ```bash
-python -m venv bot
-source bot/bin/activate       # Linux/macOS
-bot\Scripts\activate          # Windows
+python -m venv venv
+source venv/bin/activate       # Linux/macOS
+venv\Scripts\activate          # Windows
 ```
 
 
